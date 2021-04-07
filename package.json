@@ -34,6 +34,8 @@
   "homepage": "https://github.com/wlada/vue-carousel-3d#readme",
   "dependencies": {
     "core-js": "^3.6.5",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
