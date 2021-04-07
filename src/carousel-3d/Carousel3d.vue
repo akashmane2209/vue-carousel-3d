@@ -1,6 +1,6 @@
 <template>
   <div
-    class="carousel-3d-container"
+    class="carousel-3d-container test-class"
     :style="{ height: this.slideHeight + 'px' }"
   >
     <div
@@ -480,7 +480,7 @@ export default {
       this.computeData(true);
       this.attachMutationObserver();
       window.addEventListener("resize", this.setSize);
-
+      console.log('mounted bete mauj kardi');
       if ("ontouchstart" in window) {
         this.$el.addEventListener("touchstart", this.handleMousedown);
         this.$el.addEventListener("touchend", this.handleMouseup);
