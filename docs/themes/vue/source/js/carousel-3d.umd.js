@@ -461,6 +461,21 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 /***/ }),
 
+/***/ "24ea":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("f23a");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("dc5211b8", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
 /***/ "24fb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1204,20 +1219,6 @@ module.exports = function (it, key) {
 
 /***/ }),
 
-/***/ "52f3":
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".carousel-3d-container[data-v-07917306]{min-height:1px;width:100%;position:relative;z-index:0;overflow:hidden;margin:20px auto;box-sizing:border-box}.carousel-3d-slider[data-v-07917306]{position:relative;margin:0 auto;transform-style:preserve-3d;perspective:1000px}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "55dd":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1279,6 +1280,17 @@ if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__("499e").default
 var update = add("361ae300", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ "587e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_04b5e579_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("24ea");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_04b5e579_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_04b5e579_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_04b5e579_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -1713,17 +1725,6 @@ module.exports = typeof WeakMap === 'function' && /native code/.test(inspectSour
 
 /***/ }),
 
-/***/ "800d":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_07917306_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("aa2e");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_07917306_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_07917306_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel3d_vue_vue_type_style_index_0_id_07917306_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "825a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1748,6 +1749,453 @@ module.exports = !fails(function () {
   return Object.defineProperty({}, 1, { get: function () { return 7; } })[1] != 7;
 });
 
+
+/***/ }),
+
+/***/ "84a2":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used as references for various `Number` constants. */
+var NAN = 0 / 0;
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/** Used to match leading and trailing whitespace. */
+var reTrim = /^\s+|\s+$/g;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Gets the timestamp of the number of milliseconds that have elapsed since
+ * the Unix epoch (1 January 1970 00:00:00 UTC).
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Date
+ * @returns {number} Returns the timestamp.
+ * @example
+ *
+ * _.defer(function(stamp) {
+ *   console.log(_.now() - stamp);
+ * }, _.now());
+ * // => Logs the number of milliseconds it took for the deferred invocation.
+ */
+var now = function() {
+  return root.Date.now();
+};
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        result = wait - timeSinceLastCall;
+
+    return maxing ? nativeMin(result, maxWait - timeSinceLastInvoke) : result;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+/**
+ * Creates a throttled function that only invokes `func` at most once per
+ * every `wait` milliseconds. The throttled function comes with a `cancel`
+ * method to cancel delayed `func` invocations and a `flush` method to
+ * immediately invoke them. Provide `options` to indicate whether `func`
+ * should be invoked on the leading and/or trailing edge of the `wait`
+ * timeout. The `func` is invoked with the last arguments provided to the
+ * throttled function. Subsequent calls to the throttled function return the
+ * result of the last `func` invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the throttled function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.throttle` and `_.debounce`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to throttle.
+ * @param {number} [wait=0] The number of milliseconds to throttle invocations to.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=true]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new throttled function.
+ * @example
+ *
+ * // Avoid excessively updating the position while scrolling.
+ * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
+ *
+ * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
+ * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
+ * jQuery(element).on('click', throttled);
+ *
+ * // Cancel the trailing throttled invocation.
+ * jQuery(window).on('popstate', throttled.cancel);
+ */
+function throttle(func, wait, options) {
+  var leading = true,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  if (isObject(options)) {
+    leading = 'leading' in options ? !!options.leading : leading;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+  return debounce(func, wait, {
+    'leading': leading,
+    'maxWait': wait,
+    'trailing': trailing
+  });
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+}
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = value.replace(reTrim, '');
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = throttle;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("c8ba")))
 
 /***/ }),
 
@@ -1971,6 +2419,8 @@ exports.f = DESCRIPTORS ? nativeDefineProperty : function defineProperty(O, P, A
 /* harmony import */ var core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _carousel_3d_mixins_autoplay__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("0b44");
 /* harmony import */ var _carousel_3d_Controls__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("b17f");
+/* harmony import */ var lodash_throttle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("84a2");
+/* harmony import */ var lodash_throttle__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_throttle__WEBPACK_IMPORTED_MODULE_4__);
 
 
 //
@@ -1983,13 +2433,28 @@ exports.f = DESCRIPTORS ? nativeDefineProperty : function defineProperty(O, P, A
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
+ // import debounce from "lodash.debounce";
 
 var noop = function noop() {};
 
 /* harmony default export */ __webpack_exports__["a"] = ({
-  name: 'carousel3d',
+  name: "carousel3d",
   components: {
     Controls: _carousel_3d_Controls__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"]
   },
@@ -2016,7 +2481,7 @@ var noop = function noop() {};
     },
     dir: {
       type: String,
-      default: 'rtl'
+      default: "rtl"
     },
     width: {
       type: [Number, String],
@@ -2032,7 +2497,7 @@ var noop = function noop() {};
     },
     space: {
       type: [Number, String],
-      default: 'auto'
+      default: "auto"
     },
     startIndex: {
       type: [Number, String],
@@ -2060,11 +2525,11 @@ var noop = function noop() {};
     },
     controlsPrevHtml: {
       type: String,
-      default: '&lsaquo;'
+      default: "&lsaquo;"
     },
     controlsNextHtml: {
       type: String,
-      default: '&rsaquo;'
+      default: "&rsaquo;"
     },
     controlsWidth: {
       type: [String, Number],
@@ -2084,7 +2549,7 @@ var noop = function noop() {};
     },
     bias: {
       type: String,
-      default: 'left'
+      default: "left"
     },
     onMainSlideClick: {
       type: Function,
@@ -2147,32 +2612,32 @@ var noop = function noop() {};
     },
     leftIndices: function leftIndices() {
       var n = (this.visible - 1) / 2;
-      n = this.bias.toLowerCase() === 'left' ? Math.ceil(n) : Math.floor(n);
+      n = this.bias.toLowerCase() === "left" ? Math.ceil(n) : Math.floor(n);
       var indices = [];
 
       for (var m = 1; m <= n; m++) {
-        indices.push(this.dir === 'ltr' ? (this.currentIndex + m) % this.total : (this.currentIndex - m) % this.total);
+        indices.push(this.dir === "ltr" ? (this.currentIndex + m) % this.total : (this.currentIndex - m) % this.total);
       }
 
       return indices;
     },
     rightIndices: function rightIndices() {
       var n = (this.visible - 1) / 2;
-      n = this.bias.toLowerCase() === 'right' ? Math.ceil(n) : Math.floor(n);
+      n = this.bias.toLowerCase() === "right" ? Math.ceil(n) : Math.floor(n);
       var indices = [];
 
       for (var m = 1; m <= n; m++) {
-        indices.push(this.dir === 'ltr' ? (this.currentIndex - m) % this.total : (this.currentIndex + m) % this.total);
+        indices.push(this.dir === "ltr" ? (this.currentIndex - m) % this.total : (this.currentIndex + m) % this.total);
       }
 
       return indices;
     },
     leftOutIndex: function leftOutIndex() {
       var n = (this.visible - 1) / 2;
-      n = this.bias.toLowerCase() === 'left' ? Math.ceil(n) : Math.floor(n);
+      n = this.bias.toLowerCase() === "left" ? Math.ceil(n) : Math.floor(n);
       n++;
 
-      if (this.dir === 'ltr') {
+      if (this.dir === "ltr") {
         return this.total - this.currentIndex - n <= 0 ? -parseInt(this.total - this.currentIndex - n) : this.currentIndex + n;
       } else {
         return this.currentIndex - n;
@@ -2180,10 +2645,10 @@ var noop = function noop() {};
     },
     rightOutIndex: function rightOutIndex() {
       var n = (this.visible - 1) / 2;
-      n = this.bias.toLowerCase() === 'right' ? Math.ceil(n) : Math.floor(n);
+      n = this.bias.toLowerCase() === "right" ? Math.ceil(n) : Math.floor(n);
       n++;
 
-      if (this.dir === 'ltr') {
+      if (this.dir === "ltr") {
         return this.currentIndex - n;
       } else {
         return this.total - this.currentIndex - n <= 0 ? -parseInt(this.total - this.currentIndex - n, 10) : this.currentIndex + n;
@@ -2220,14 +2685,14 @@ var noop = function noop() {};
 
       if (this.isLastSlide) {
         if (this.onLastSlide !== noop) {
-          console.warn('onLastSlide deprecated, please use @last-slide');
+          console.warn("onLastSlide deprecated, please use @last-slide");
         }
 
         this.onLastSlide(this.currentIndex);
-        this.$emit('last-slide', this.currentIndex);
+        this.$emit("last-slide", this.currentIndex);
       }
 
-      this.$emit('before-slide-change', this.currentIndex);
+      this.$emit("before-slide-change", this.currentIndex);
       setTimeout(function () {
         return _this.animationEnd();
       }, this.animationSpeed);
@@ -2264,11 +2729,11 @@ var noop = function noop() {};
      */
     animationEnd: function animationEnd() {
       if (this.onSlideChange !== noop) {
-        console.warn('onSlideChange deprecated, please use @after-slide-change');
+        console.warn("onSlideChange deprecated, please use @after-slide-change");
       }
 
       this.onSlideChange(this.currentIndex);
-      this.$emit('after-slide-change', this.currentIndex);
+      this.$emit("after-slide-change", this.currentIndex);
     },
 
     /**
@@ -2276,6 +2741,7 @@ var noop = function noop() {};
      * @param  {Object} e The event object
      */
     handleMouseup: function handleMouseup() {
+      console.log('up');
       this.mousedown = false;
       this.dragOffsetX = 0;
       this.dragOffsetY = 0;
@@ -2291,8 +2757,8 @@ var noop = function noop() {};
       }
 
       this.mousedown = true;
-      this.dragStartX = 'ontouchstart' in window ? e.touches[0].clientX : e.clientX;
-      this.dragStartY = 'ontouchstart' in window ? e.touches[0].clientY : e.clientY;
+      this.dragStartX = "ontouchstart" in window ? e.touches[0].clientX : e.clientX;
+      this.dragStartY = "ontouchstart" in window ? e.touches[0].clientY : e.clientY;
     },
 
     /**
@@ -2300,12 +2766,15 @@ var noop = function noop() {};
      * @param  {Object} e The event object
      */
     handleMousemove: function handleMousemove(e) {
+      var _this3 = this;
+
       if (!this.mousedown) {
         return;
       }
 
-      var eventPosX = 'ontouchstart' in window ? e.touches[0].clientX : e.clientX;
-      var eventPosY = 'ontouchstart' in window ? e.touches[0].clientY : e.clientY;
+      console.log('move');
+      var eventPosX = "ontouchstart" in window ? e.touches[0].clientX : e.clientX;
+      var eventPosY = "ontouchstart" in window ? e.touches[0].clientY : e.clientY;
       var deltaX = this.dragStartX - eventPosX;
       var deltaY = this.dragStartY - eventPosY;
       this.dragOffsetX = deltaX;
@@ -2316,12 +2785,16 @@ var noop = function noop() {};
       }
 
       if (this.dragOffsetX > this.minSwipeDistance) {
-        this.handleMouseup();
+        // this.handleMouseup()
         this.goNext();
       } else if (this.dragOffsetX < -this.minSwipeDistance) {
-        this.handleMouseup();
+        // this.handleMouseup()
         this.goPrev();
       }
+
+      setTimeout(function () {
+        _this3.handleMouseup();
+      }, 500);
     },
 
     /**
@@ -2329,7 +2802,7 @@ var noop = function noop() {};
      * in order to keep the magnet container in sync with the height its reference node.
      */
     attachMutationObserver: function attachMutationObserver() {
-      var _this3 = this;
+      var _this4 = this;
 
       var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
 
@@ -2340,8 +2813,8 @@ var noop = function noop() {};
           characterData: true
         };
         this.mutationObserver = new MutationObserver(function () {
-          _this3.$nextTick(function () {
-            _this3.computeData();
+          _this4.$nextTick(function () {
+            _this4.computeData();
           });
         });
 
@@ -2391,24 +2864,25 @@ var noop = function noop() {};
       this.viewport = this.$el.clientWidth;
     },
     setSize: function setSize() {
-      this.$el.style.cssText += 'height:' + this.slideHeight + 'px;';
-      this.$el.childNodes[0].style.cssText += 'width:' + this.slideWidth + 'px;' + ' height:' + this.slideHeight + 'px;';
+      this.$el.style.cssText += "height:" + this.slideHeight + "px;";
+      this.$el.childNodes[0].style.cssText += "width:" + this.slideWidth + "px;" + " height:" + this.slideHeight + "px;";
     }
   },
   mounted: function mounted() {
     if (!process.server) {
       this.computeData(true);
       this.attachMutationObserver();
-      window.addEventListener('resize', this.setSize);
+      window.addEventListener("resize", this.setSize);
+      console.log('mounted bete mauj kardi');
 
-      if ('ontouchstart' in window) {
-        this.$el.addEventListener('touchstart', this.handleMousedown);
-        this.$el.addEventListener('touchend', this.handleMouseup);
-        this.$el.addEventListener('touchmove', this.handleMousemove);
+      if ("ontouchstart" in window) {
+        this.$el.addEventListener("touchstart", this.handleMousedown);
+        this.$el.addEventListener("touchend", this.handleMouseup);
+        this.$el.addEventListener("touchmove", lodash_throttle__WEBPACK_IMPORTED_MODULE_4___default()(this.handleMousemove, 100));
       } else {
-        this.$el.addEventListener('mousedown', this.handleMousedown);
-        this.$el.addEventListener('mouseup', this.handleMouseup);
-        this.$el.addEventListener('mousemove', this.handleMousemove);
+        this.$el.addEventListener("mousedown", this.handleMousedown);
+        this.$el.addEventListener("mouseup", this.handleMouseup);
+        this.$el.addEventListener("mousemove", lodash_throttle__WEBPACK_IMPORTED_MODULE_4___default()(this.handleMousemove, 100));
       }
     }
   },
@@ -2416,13 +2890,13 @@ var noop = function noop() {};
     if (!process.server) {
       this.detachMutationObserver();
 
-      if ('ontouchstart' in window) {
-        this.$el.removeEventListener('touchmove', this.handleMousemove);
+      if ("ontouchstart" in window) {
+        this.$el.removeEventListener("touchmove", this.handleMousemove);
       } else {
-        this.$el.removeEventListener('mousemove', this.handleMousemove);
+        this.$el.removeEventListener("mousemove", this.handleMousemove);
       }
 
-      window.removeEventListener('resize', this.setSize);
+      window.removeEventListener("resize", this.setSize);
     }
   }
 });
@@ -2549,21 +3023,6 @@ if (isForced(NUMBER, !NativeNumber(' 0o1') || !NativeNumber('0b1') || NativeNumb
 
 /***/ }),
 
-/***/ "aa2e":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("52f3");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = __webpack_require__("499e").default
-var update = add("4baddf4c", content, true, {"sourceMap":false,"shadowMode":false});
-
-/***/ }),
-
 /***/ "ae40":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2603,7 +3062,7 @@ module.exports = function (METHOD_NAME, options) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4b1b00db-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/carousel-3d/Controls.vue?vue&type=template&id=05517ad0&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"eb8c3f8e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/carousel-3d/Controls.vue?vue&type=template&id=05517ad0&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"carousel-3d-controls"},[_c('a',{staticClass:"prev",class:{ disabled: !_vm.parent.isPrevPossible },style:(("width: " + _vm.width + "px; height: " + _vm.height + "px; line-height: " + _vm.height + "px;")),attrs:{"href":"#","aria-label":"Previous slide"},on:{"click":function($event){$event.preventDefault();return _vm.parent.goPrev()}}},[_c('span',{domProps:{"innerHTML":_vm._s(_vm.prevHtml)}})]),_c('a',{staticClass:"next",class:{ disabled: !_vm.parent.isNextPossible },style:(("width: " + _vm.width + "px; height: " + _vm.height + "px; line-height: " + _vm.height + "px;")),attrs:{"href":"#","aria-label":"Next slide"},on:{"click":function($event){$event.preventDefault();return _vm.parent.goNext()}}},[_c('span',{domProps:{"innerHTML":_vm._s(_vm.nextHtml)}})])])}
 var staticRenderFns = []
 
@@ -3429,6 +3888,20 @@ module.exports = Array.isArray || function isArray(arg) {
 
 /***/ }),
 
+/***/ "f23a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".carousel-3d-container[data-v-04b5e579]{min-height:1px;width:100%;position:relative;z-index:0;overflow:hidden;margin:20px auto;box-sizing:border-box}.carousel-3d-slider[data-v-04b5e579]{position:relative;margin:0 auto;transform-style:preserve-3d;perspective:1000px}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "f772":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3490,7 +3963,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4b1b00db-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/carousel-3d/Slide.vue?vue&type=template&id=1067a9f8&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"eb8c3f8e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/carousel-3d/Slide.vue?vue&type=template&id=1067a9f8&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"carousel-3d-slide",class:_vm.computedClasses,style:(_vm.slideStyle),on:{"click":function($event){return _vm.goTo()}}},[_vm._t("default",null,{"index":_vm.index,"isCurrent":_vm.isCurrent,"leftIndex":_vm.leftIndex,"rightIndex":_vm.rightIndex})],2)}
 var staticRenderFns = []
 
@@ -3667,20 +4140,23 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Slide = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4b1b00db-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/carousel-3d/Carousel3d.vue?vue&type=template&id=07917306&scoped=true&
-var Carousel3dvue_type_template_id_07917306_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"carousel-3d-container",style:({height: this.slideHeight + 'px'})},[_c('div',{staticClass:"carousel-3d-slider",style:({width: this.slideWidth + 'px', height: this.slideHeight + 'px'})},[_vm._t("default")],2),(_vm.controlsVisible)?_c('controls',{attrs:{"next-html":_vm.controlsNextHtml,"prev-html":_vm.controlsPrevHtml,"width":_vm.controlsWidth,"height":_vm.controlsHeight}}):_vm._e()],1)}
-var Carousel3dvue_type_template_id_07917306_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"eb8c3f8e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/carousel-3d/Carousel3d.vue?vue&type=template&id=04b5e579&scoped=true&
+var Carousel3dvue_type_template_id_04b5e579_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"carousel-3d-container test-class",style:({ height: this.slideHeight + 'px' })},[_c('div',{staticClass:"carousel-3d-slider",style:({
+      width: this.slideWidth + 'px',
+      height: this.slideHeight + 'px',
+    })},[_vm._t("default")],2),(_vm.controlsVisible)?_c('controls',{attrs:{"next-html":_vm.controlsNextHtml,"prev-html":_vm.controlsPrevHtml,"width":_vm.controlsWidth,"height":_vm.controlsHeight}}):_vm._e()],1)}
+var Carousel3dvue_type_template_id_04b5e579_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/carousel-3d/Carousel3d.vue?vue&type=template&id=07917306&scoped=true&
+// CONCATENATED MODULE: ./src/carousel-3d/Carousel3d.vue?vue&type=template&id=04b5e579&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/carousel-3d/Carousel3d.vue?vue&type=script&lang=js&
 var Carousel3dvue_type_script_lang_js_ = __webpack_require__("a221");
 
 // CONCATENATED MODULE: ./src/carousel-3d/Carousel3d.vue?vue&type=script&lang=js&
  /* harmony default export */ var carousel_3d_Carousel3dvue_type_script_lang_js_ = (Carousel3dvue_type_script_lang_js_["a" /* default */]); 
-// EXTERNAL MODULE: ./src/carousel-3d/Carousel3d.vue?vue&type=style&index=0&id=07917306&scoped=true&lang=css&
-var Carousel3dvue_type_style_index_0_id_07917306_scoped_true_lang_css_ = __webpack_require__("800d");
+// EXTERNAL MODULE: ./src/carousel-3d/Carousel3d.vue?vue&type=style&index=0&id=04b5e579&scoped=true&lang=css&
+var Carousel3dvue_type_style_index_0_id_04b5e579_scoped_true_lang_css_ = __webpack_require__("587e");
 
 // CONCATENATED MODULE: ./src/carousel-3d/Carousel3d.vue
 
@@ -3693,11 +4169,11 @@ var Carousel3dvue_type_style_index_0_id_07917306_scoped_true_lang_css_ = __webpa
 
 var Carousel3d_component = Object(componentNormalizer["a" /* default */])(
   carousel_3d_Carousel3dvue_type_script_lang_js_,
-  Carousel3dvue_type_template_id_07917306_scoped_true_render,
-  Carousel3dvue_type_template_id_07917306_scoped_true_staticRenderFns,
+  Carousel3dvue_type_template_id_04b5e579_scoped_true_render,
+  Carousel3dvue_type_template_id_04b5e579_scoped_true_staticRenderFns,
   false,
   null,
-  "07917306",
+  "04b5e579",
   null
   
 )
